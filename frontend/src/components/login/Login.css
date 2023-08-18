@@ -1,0 +1,81 @@
+.login-container{
+    display: flex;
+justify-content: center;
+align-items: center;
+height:100vh;
+background-position: center bottom;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: fit-content;
+}
+
+.login-container .container form{
+    display: block;
+    flex-direction: column;
+    justify-content: start;
+    padding:  30px 40px;
+    width: 50%;
+    border-radius: 20px;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login-container .container form input,button,h1 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 10px;
+padding: 2px 4px;
+}
+.login-container .container form input,h1{
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.login-container .container form input{
+    font-size: medium;
+    background-color: #e5e5e5;
+    border: none;
+}
+
+.login-container .container form button{
+    margin-top: 10px;
+    padding: 5px 15px;
+    align-self: self-start;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(2,172,229);
+    color: whitesmoke;
+
+}
+
+.login-container .container form p{
+    font-size: 30px;
+}
+
+.login-container .container p  span{
+    font-weight: 100;
+    color: rgb(2,172,229);
+}
+
+.login-container .container .show-password{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.login-container .container #showpassword {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    cursor: pointer;
+}
+.login-container .container .show-password p{
+    font-size: 15px;
+    margin: 0px 3px;
+}

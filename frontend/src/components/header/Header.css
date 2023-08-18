@@ -1,0 +1,31 @@
+.header{
+    background-color: rgb(2,172,229);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 30px;
+    margin: 5px 10px;
+}
+
+.header span{
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    padding: 2px 20px;
+    background-color: white;
+}
+
+.header ul{
+    display: flex;
+    gap: 15px;
+}
+.header li{
+    font-weight: 100;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    padding: 2px 20px;
+    background-color: white;
+}
